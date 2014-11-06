@@ -1,0 +1,72 @@
+* {  margin: 0;
+     padding: 0;}
+
+body {font-family: sans-serif;
+      background-color: #f1f1f1;}
+
+li {list-style: none;}
+
+a:link {color:white; text-decoration: none; font-weight: bold;}
+
+a:visited {color:white; text-decoration: none; font-weight: bold;}
+
+a:hover {color:white; text-decoration: underline; font-weight: bold;}
+
+header {
+    color: #8468b4;
+    background-color: #ffffff;
+}
+
+h1 {font-size: 48px;
+    text-align: center;
+    padding: 2rem 2rem;
+}
+
+header li {display: inline-block;
+          padding: 1rem 2rem;
+          height: 18px;
+          border-left: 3px solid #6a4e9a;
+}
+
+
+header li:first-of-type {border-left: none;}
+
+
+header nav {background-color: #8468b4;
+            text-align:center;
+}
+
+
+.sidenav {float: left;
+          background-color: #c0b2d4;
+          width: 9em;
+          line-height: 250%;
+          padding-left: 70px;
+          padding-top: 50px;
+          padding-bottom: 400px
+}
+  
+
+section {float: right;
+         background-color: #f1f1f1;
+         text-align: center;
+         width: 75%;
+         padding-right: 50px;
+         padding-top: 0.5rem;
+}
+  
+section p {font-size: 0.8rem;
+           line-height: 140%;
+}
+
+img {padding-top: 10rem;
+}
+
+footer {clear: both;
+        background-color: #ffffff;
+        text-align: center;
+}
+
+footer img {height: 30px;
+            padding: 1rem;
+}
